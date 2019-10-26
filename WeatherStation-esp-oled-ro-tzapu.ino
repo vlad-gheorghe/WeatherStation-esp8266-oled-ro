@@ -65,8 +65,8 @@ See more at https://thingpulse.com
  **************************/
 
 // WIFI
-//const char* WIFI_SSID = "rolph";
-//const char* WIFI_PWD = "8c3dbf6715";
+//const char* WIFI_SSID = "ssid";
+//const char* WIFI_PWD = "pwd";
 
 #define TZ              2       // (utc+) TZ in hours
 #define DST_MN          60      // use 60mn for summer time in some countries
@@ -88,7 +88,7 @@ const int SDC_PIN = 4; //D4;
 // OpenWeatherMap Settings
 // Sign up here to get an API key:
 // https://docs.thingpulse.com/how-tos/openweathermap-key/
-String OPEN_WEATHER_MAP_APP_ID = "9be09f734c9f2620ba93288e7be7bb0f";
+String OPEN_WEATHER_MAP_APP_ID = "api-key";
 /*
 Go to https://openweathermap.org/find?q= and search for a location. Go through the
 result set and select the entry closest to the actual location you want to display 
